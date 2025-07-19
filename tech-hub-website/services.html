@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Services - Tech Hub</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      .services-hero {
+        padding: 80px 0;
+        text-align: center;
+        background: linear-gradient(135deg, #1e1e22 0%, #0e0e10 100%);
+      }
+      
+      .services-content {
+        padding: 60px 0;
+      }
+      
+      .service-card {
+        background-color: #1e1e22;
+        padding: 40px;
+        border-radius: 12px;
+        border: 1px solid #333;
+        margin-bottom: 30px;
+        transition: all 0.3s ease;
+      }
+      
+      .service-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 15px 30px rgba(79, 195, 247, 0.1);
+        border-color: #4fc3f7;
+      }
+      
+      .service-header {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+      }
+      
+      .service-icon {
+        font-size: 2.5rem;
+        margin-right: 20px;
+      }
+      
+      .service-title {
+        color: #4fc3f7;
+        font-size: 1.8rem;
+        margin: 0;
+      }
+      
+      .service-features {
+        list-style: none;
+        margin-top: 20px;
+      }
+      
+      .service-features li {
+        padding: 8px 0;
+        position: relative;
+        padding-left: 25px;
+      }
+      
+      .service-features li:before {
+        content: "✓";
+        color: #4fc3f7;
+        position: absolute;
+        left: 0;
+        font-weight: bold;
+      }
+      
+      .price-tag {
+        background: linear-gradient(45deg, #4fc3f7, #00bcd4);
+        color: #000;
+        padding: 10px 20px;
+        border-radius: 25px;
+        font-weight: bold;
+        display: inline-block;
+        margin-top: 20px;
+      }
+      
+      .cta-secondary {
+        background-color: transparent;
+        border: 2px solid #4fc3f7;
+        color: #4fc3f7;
+        padding: 12px 30px;
+        text-decoration: none;
+        border-radius: 8px;
+        display: inline-block;
+        margin-top: 20px;
+        transition: all 0.3s;
+      }
+      
+      .cta-secondary:hover {
+        background-color: #4fc3f7;
+        color: #000;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="header-section">
+      <div class="container header-container">
+        <nav class="main-nav">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="services.html">Services</a>
+          <a href="contact.html">Contact</a>
+          <a href="what-i-learned.html">What I Learned</a>
+        </nav>
+        <div class="logo">
+          <img src="logo.png" alt="Tech Hub Logo" class="logo-img" />
+        </div>
+      </div>
+    </header>
+
+    <!-- SERVICES HERO SECTION -->
+    <section class="services-hero">
+      <div class="container">
+        <h1>Our <span style="color: #4fc3f7;">Services</span></h1>
+        <p>Comprehensive solutions for your learning journey</p>
+      </div>
+    </section>
+
+    <!-- SERVICES CONTENT -->
+    <main class="services-content">
+      <div class="container">
+        
+        <!-- Web Development Course -->
+        <div class="service-card">
+          <div class="service-header">
+            <div class="service-icon">🌐</div>
+            <h2 class="service-title">Full-Stack Web Development</h2>
+          </div>
+          <p>Master modern web development from frontend to backend. Learn to build responsive, dynamic websites and web applications using the latest technologies.</p>
+          <ul class="service-features">
+            <li>HTML5, CSS3, and JavaScript fundamentals</li>
+            <li>React.js and modern frontend frameworks</li>
+            <li>Node.js and Express.js backend development</li>
+            <li>Database integration (MongoDB, SQL)</li>
+            <li>Version control with Git and GitHub</li>
+            <li>Deployment and hosting strategies</li>
+          </ul>
+          <div class="price-tag">$299 / 12 weeks</div>
+          <a href="#" class="cta-secondary">Enroll Now</a>
+        </div>
+
+        <!-- Mobile App Development -->
+        <div class="service-card">
+          <div class="service-header">
+            <div class="service-icon">📱</div>
+            <h2 class="service-title">Mobile App Development</h2>
+          </div>
+          <p>Create stunning mobile applications for iOS and Android. Learn React Native and build cross-platform apps that reach millions of users.</p>
+          <ul class="service-features">
+            <li>React Native fundamentals</li>
+            <li>Navigation and state management</li>
+            <li>Native device features integration</li>
+            <li>App store deployment</li>
+            <li>Performance optimization</li>
+            <li>Real-time features and push notifications</li>
+          </ul>
+          <div class="price-tag">$399 / 16 weeks</div>
+          <a href="#" class="cta-secondary">Learn More</a>
+        </div>
+
+        <!-- Data Science & AI -->
+        <div class="service-card">
+          <div class="service-header">
+            <div class="service-icon">🤖</div>
+            <h2 class="service-title">Data Science & AI</h2>
+          </div>
+          <p>Dive into the world of artificial intelligence and machine learning. Analyze data, build predictive models, and create intelligent applications.</p>
+          <ul class="service-features">
+            <li>Python programming for data science</li>
+            <li>Data analysis with Pandas and NumPy</li>
+            <li>Machine learning algorithms</li>
+            <li>Deep learning with TensorFlow</li>
+            <li>Data visualization techniques</li>
+            <li>Real-world project portfolio</li>
+          </ul>
+          <div class="price-tag">$499 / 20 weeks</div>
+          <a href="#" class="cta-secondary">Start Learning</a>
+        </div>
+
+        <!-- DevOps & Cloud -->
+        <div class="service-card">
+          <div class="service-header">
+            <div class="service-icon">☁️</div>
+            <h2 class="service-title">DevOps & Cloud Computing</h2>
+          </div>
+          <p>Master the art of deployment, scaling, and maintaining applications. Learn industry-standard tools and practices for modern software delivery.</p>
+          <ul class="service-features">
+            <li>Docker and containerization</li>
+            <li>Kubernetes orchestration</li>
+            <li>AWS/Azure cloud platforms</li>
+            <li>CI/CD pipeline automation</li>
+            <li>Infrastructure as Code</li>
+            <li>Monitoring and logging</li>
+          </ul>
+          <div class="price-tag">$349 / 14 weeks</div>
+          <a href="#" class="cta-secondary">Explore Course</a>
+        </div>
+
+        <!-- 1-on-1 Mentorship -->
+        <div class="service-card">
+          <div class="service-header">
+            <div class="service-icon">👨‍🏫</div>
+            <h2 class="service-title">Personal Mentorship</h2>
+          </div>
+          <p>Get personalized guidance from industry experts. Accelerate your learning with tailored advice, code reviews, and career guidance.</p>
+          <ul class="service-features">
+            <li>Weekly 1-on-1 video sessions</li>
+            <li>Personalized learning roadmap</li>
+            <li>Code review and feedback</li>
+            <li>Career guidance and resume help</li>
+            <li>Interview preparation</li>
+            <li>Direct access to mentor</li>
+          </ul>
+          <div class="price-tag">$150 / hour</div>
+          <a href="#" class="cta-secondary">Book Session</a>
+        </div>
+
+      </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer-section">
+      <div class="container">
+        <div class="footer-links">
+          <a href="about.html">About</a>
+          <a href="services.html">Services</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <p>&copy; 2025 Tech Hub</p>
+      </div>
+    </footer>
+  </body>
+</html>

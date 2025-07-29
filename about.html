@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>About - Tech Hub</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      .about-hero {
+        padding: 80px 0;
+        text-align: center;
+        background: linear-gradient(135deg, #1e1e22 0%, #0e0e10 100%);
+      }
+      
+      .about-content {
+        padding: 60px 0;
+      }
+      
+      .about-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 40px;
+        margin-top: 40px;
+      }
+      
+      .about-section {
+        background-color: #1e1e22;
+        padding: 30px;
+        border-radius: 12px;
+        border: 1px solid #333;
+      }
+      
+      .about-section h3 {
+        color: #4fc3f7;
+        margin-bottom: 15px;
+        font-size: 1.4rem;
+      }
+      
+      .tech-stack {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 15px;
+      }
+      
+      .tech-item {
+        background-color: #4fc3f7;
+        color: #000;
+        padding: 5px 12px;
+        border-radius: 20px;
+        font-size: 0.9rem;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="header-section">
+      <div class="container header-container">
+        <nav class="main-nav">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="services.html">Services</a>
+          <a href="contact.html">Contact</a>
+          <a href="blog.html">Blog</a>
+          <a href="what-i-learned.html">What I Learned</a>
+        </nav>
+        <div class="logo">
+          <img src="logo.png" alt="Tech Hub Logo" class="logo-img" />
+        </div>
+      </div>
+    </header>
+
+    <!-- ABOUT HERO SECTION -->
+    <section class="about-hero">
+      <div class="container">
+        <h1>About <span style="color: #4fc3f7;">Tech Hub</span></h1>
+        <p>Empowering developers through education and community</p>
+      </div>
+    </section>
+
+    <!-- ABOUT CONTENT -->
+    <main class="about-content">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-section">
+            <h3>🎯 Our Mission</h3>
+            <p>
+              Tech Hub is dedicated to making technology education accessible to everyone. 
+              We believe that coding skills are essential in today's digital world, and we're 
+              here to guide you through your learning journey with comprehensive courses, 
+              practical projects, and a supportive community.
+            </p>
+          </div>
+          
+          <div class="about-section">
+            <h3>💡 What We Offer</h3>
+            <p>
+              From beginner-friendly tutorials to advanced programming concepts, we cover 
+              a wide range of technologies. Our hands-on approach ensures you build real 
+              projects while learning, giving you the confidence to tackle any challenge.
+            </p>
+            <div class="tech-stack">
+              <span class="tech-item">JavaScript</span>
+              <span class="tech-item">React</span>
+              <span class="tech-item">Node.js</span>
+              <span class="tech-item">Python</span>
+              <span class="tech-item">CSS</span>
+              <span class="tech-item">HTML</span>
+            </div>
+          </div>
+          
+          <div class="about-section">
+            <h3>🚀 Our Vision</h3>
+            <p>
+              We envision a world where everyone has the opportunity to learn and grow in 
+              technology. Through our platform, we aim to bridge the gap between curiosity 
+              and expertise, creating a new generation of innovative developers and creators.
+            </p>
+          </div>
+          
+          <div class="about-section">
+            <h3>👥 Community First</h3>
+            <p>
+              Learning is better when we do it together. Our community of learners and 
+              experts supports each other through challenges, celebrates victories, and 
+              shares knowledge freely. Join us and become part of something bigger.
+            </p>
+          </div>
+        </div>
+        
+        <div class="about-section" style="margin-top: 40px; text-align: center;">
+          <h3>📊 By the Numbers</h3>
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 20px; margin-top: 20px;">
+            <div>
+              <h4 style="color: #4fc3f7; font-size: 2rem;">1000+</h4>
+              <p>Students</p>
+            </div>
+            <div>
+              <h4 style="color: #4fc3f7; font-size: 2rem;">50+</h4>
+              <p>Courses</p>
+            </div>
+            <div>
+              <h4 style="color: #4fc3f7; font-size: 2rem;">24/7</h4>
+              <p>Support</p>
+            </div>
+            <div>
+              <h4 style="color: #4fc3f7; font-size: 2rem;">95%</h4>
+              <p>Success Rate</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer-section">
+      <div class="container">
+        <div class="footer-links">
+          <a href="about.html">About</a>
+          <a href="services.html">Services</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <p>&copy; 2025 Tech Hub</p>
+      </div>
+    </footer>
+  </body>
+</html>

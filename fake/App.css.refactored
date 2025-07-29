@@ -1,0 +1,39 @@
+/* Reset and base styles */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0e0e10;
+  color: #eaeaea;
+}
+
+/* Animation for loading spinner */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.5s ease-in;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0e0e10;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #4fc3f7;
+}
